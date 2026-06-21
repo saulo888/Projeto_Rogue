@@ -1,5 +1,5 @@
-{
-  "$GMScript":"v1",
+﻿{
+  "$GMScript":"",
   "%Name":"scr_input_handler",
   "isCompatibility":false,
   "isDnD":false,

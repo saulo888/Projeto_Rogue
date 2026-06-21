@@ -1,5 +1,5 @@
-{
-  "$GMScript":"v1",
+﻿{
+  "$GMScript":"",
   "%Name":"scr_draw_grid",
   "isCompatibility":false,
   "isDnD":false,

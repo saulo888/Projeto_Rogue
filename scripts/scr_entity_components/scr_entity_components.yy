@@ -1,5 +1,5 @@
-{
-  "$GMScript":"v1",
+﻿{
+  "$GMScript":"",
   "%Name":"scr_entity_components",
   "isCompatibility":false,
   "isDnD":false,

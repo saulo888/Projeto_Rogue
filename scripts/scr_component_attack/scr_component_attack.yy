@@ -1,5 +1,5 @@
-{
-  "$GMScript":"v1",
+﻿{
+  "$GMScript":"",
   "%Name":"scr_component_attack",
   "isCompatibility":false,
   "isDnD":false,

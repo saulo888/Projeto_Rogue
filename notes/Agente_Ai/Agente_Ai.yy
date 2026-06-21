@@ -1,0 +1,11 @@
+{
+  "$GMNotes":"v1",
+  "%Name":"Agente_Ai",
+  "name":"Agente_Ai",
+  "parent":{
+    "name":"Projeto_Rogue",
+    "path":"Projeto_Rogue.yyp",
+  },
+  "resourceType":"GMNotes",
+  "resourceVersion":"2.0",
+}

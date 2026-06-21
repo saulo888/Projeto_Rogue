@@ -19,6 +19,7 @@
   },
   "name":"Projeto_Rogue",
   "resources":[
+    {"id":{"name":"Agente_Ai","path":"notes/Agente_Ai/Agente_Ai.yy",},},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
   ],
   "resourceType":"GMProject",

@@ -7,11 +7,11 @@
 function EntityComponents(_owner, _grid_cx, _grid_cy, _max_hp, _damage, _move_delay) constructor {
 	var _grid = global.grid;
 
-	health = ComponentHealth(_owner, _max_hp);
-	movement = ComponentMovement(_owner, _grid, _grid_cx, _grid_cy, _move_delay);
+	health   = new ComponentHealth(_owner, _max_hp);
+	movement = new ComponentMovement(_owner, _grid, _grid_cx, _grid_cy, _move_delay);
 
 	if (_damage > 0) {
-		attack = ComponentAttack(_owner, _damage);
+		attack = new ComponentAttack(_owner, _damage);
 	}
 
 	movement.register();

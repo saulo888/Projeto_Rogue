@@ -7,4 +7,6 @@ grid_cx = (_cfg != undefined) ? _cfg.cx : 20;
 grid_cy = (_cfg != undefined) ? _cfg.cy : 12;
 
 components = new EntityComponents(id, grid_cx, grid_cy, 10, 3, 8);
+sprite_index = spr_poring_stand;
+image_speed  = 0.1;
 depth = -5;

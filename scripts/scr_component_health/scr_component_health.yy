@@ -1,5 +1,5 @@
-﻿{
-  "$GMScript":"",
+{
+  "$GMScript":"v1",
   "%Name":"scr_component_health",
   "isCompatibility":false,
   "isDnD":false,

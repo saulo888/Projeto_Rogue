@@ -1,5 +1,5 @@
-﻿{
-  "$GMScript":"",
+{
+  "$GMScript":"v1",
   "%Name":"scr_grid_manager",
   "isCompatibility":false,
   "isDnD":false,

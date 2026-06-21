@@ -7,11 +7,11 @@ function ComponentAttack(_owner, _damage) constructor {
 	perform_attack = function(_target) {
 		if (!instance_exists(_target)) return false;
 		if (!variable_instance_exists(_target, "components")) return false;
-		if (!variable_struct_exists(_target.components, "health")) return false;
+		if (!variable_struct_exists(_target.components, "hp_comp")) return false;
 
-		_target.components.health.take_damage(damage);
+		_target.components.hp_comp.take_damage(damage);
 
-		if (!_target.components.health.is_alive()) {
+		if (!_target.components.hp_comp.is_alive()) {
 			if (variable_struct_exists(_target.components, "movement")) {
 				_target.components.movement.unregister();
 			}

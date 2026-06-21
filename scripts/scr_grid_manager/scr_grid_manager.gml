@@ -164,12 +164,14 @@ function GridManager(_cols, _rows, _cell_size) constructor {
 
 		for (var i = 0; i < array_length(_neighbors); i++) {
 			var _cell = _neighbors[i];
-			if (!is_walkable(_cell.cx, _cell.cy)) continue;
+			var _is_from = (_cell.cx == _from.cx && _cell.cy == _from.cy);
+
+			if (!_is_from && !is_walkable(_cell.cx, _cell.cy)) continue;
 
 			var _len = 0;
 			var _path = [];
 
-			if (_cell.cx == _from.cx && _cell.cy == _from.cy) {
+			if (_is_from) {
 				_len = 0;
 			} else {
 				_path = find_path(_from, _cell);

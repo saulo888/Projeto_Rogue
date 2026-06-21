@@ -31,6 +31,7 @@
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
     {"id":{"name":"scr_component_attack","path":"scripts/scr_component_attack/scr_component_attack.yy",},},
     {"id":{"name":"scr_component_health","path":"scripts/scr_component_health/scr_component_health.yy",},},
+    {"id":{"name":"scr_spawn_monster","path":"scripts/scr_spawn_monster/scr_spawn_monster.yy",},},
     {"id":{"name":"scr_component_movement","path":"scripts/scr_component_movement/scr_component_movement.yy",},},
     {"id":{"name":"scr_draw_grid","path":"scripts/scr_draw_grid/scr_draw_grid.yy",},},
     {"id":{"name":"scr_entity_components","path":"scripts/scr_entity_components/scr_entity_components.yy",},},

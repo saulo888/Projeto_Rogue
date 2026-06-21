@@ -132,16 +132,20 @@ function GridManager(_cols, _rows, _cell_size) constructor {
 
 		var _path = [];
 		if (_found) {
+			var _trace = [];
 			var _cx = _to.cx;
 			var _cy = _to.cy;
 			while !(_cx == _from.cx && _cy == _from.cy) {
-				array_push(_path, { cx: _cx, cy: _cy });
+				array_push(_trace, { cx: _cx, cy: _cy });
 				var _pcx = ds_grid_get(_parent_cx, _cx, _cy);
 				var _pcy = ds_grid_get(_parent_cy, _cx, _cy);
 				_cx = _pcx;
 				_cy = _pcy;
 			}
-			array_reverse(_path);
+			var _len = array_length(_trace);
+			for (var _i = _len - 1; _i >= 0; _i--) {
+				array_push(_path, _trace[_i]);
+			}
 		}
 
 		ds_queue_destroy(_queue);

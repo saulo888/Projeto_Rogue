@@ -1,0 +1,12 @@
+{
+  "$GMFolder":"v1",
+  "%Name":"Entities",
+  "folderPath":"folders/Objects/Entities.yy",
+  "name":"Entities",
+  "parent":{
+    "name":"Objects",
+    "path":"folders/Objects.yy",
+  },
+  "resourceType":"GMFolder",
+  "resourceVersion":"2.0",
+}

@@ -1,0 +1,12 @@
+{
+  "$GMFolder":"v1",
+  "%Name":"Controllers",
+  "folderPath":"folders/Objects/Controllers.yy",
+  "name":"Controllers",
+  "parent":{
+    "name":"Objects",
+    "path":"folders/Objects.yy",
+  },
+  "resourceType":"GMFolder",
+  "resourceVersion":"2.0",
+}

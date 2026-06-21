@@ -1,5 +1,5 @@
 {
-  "$GMFolder":"v1",
+  "$GMFolder":"",
   "%Name":"Scripts",
   "folderPath":"folders/Scripts.yy",
   "name":"Scripts",

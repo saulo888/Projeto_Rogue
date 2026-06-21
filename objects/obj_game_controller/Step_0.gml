@@ -2,9 +2,10 @@ if (player == noone) {
 	player = instance_find(obj_player, 0);
 }
 
-var _monster_count = instance_number(obj_monster);
-if (_monster_count < max_monsters) {
-	repeat (max_monsters - _monster_count) {
+spawn_timer--;
+if (spawn_timer <= 0) {
+	spawn_timer = room_speed * 2;
+	if (instance_number(obj_monster) < max_monsters) {
 		spawn_monster(grid);
 	}
 }
